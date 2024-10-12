@@ -42,7 +42,7 @@ export function getCactusRects() {
 function createCactus() {
   const cactus = document.createElement("img")
   cactus.dataset.cactus = true
-  const cactusTypes = ["cactus1.1.png", "cactus2.2.png", "cactus3.3.png"]
+  const cactusTypes = ["cactus1.1.png", "cactus2.2.png", "cactus3.3.png", "cactus4.4.png]
   const randomIndex = Math.floor(Math.random() * cactusTypes.length)
   cactus.src = `img/${cactusTypes[randomIndex]}`
   cactus.classList.add("cactus")
